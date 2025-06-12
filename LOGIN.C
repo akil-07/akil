@@ -10,9 +10,7 @@ printf("Enter the username=");
 scanf("%s",&username);
 printf("\nEnter the password=");
 scanf("%s",&pass);
-if(strcmp(username,"admin")==0)
- {
- if(strcmp(pass,"admin007")==0)
+if((strcmp(username,"admin")==0)&&(strcmp(pass,"admin007")==0))
  {
  printf("\n\t\tWELCOME ADMIN!!!");
  printf("\n1)view available file 2)Add files 3)remove user");
